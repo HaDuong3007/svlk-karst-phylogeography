@@ -1,0 +1,32 @@
+{
+  "title": "Data and scripts for: Nuclear-chloroplast marker discordance and cross-border geographic structuring in two karst-endemic plant genera (Begonia sect. Coelocentrum, Begoniaceae; Hemiboea, Gesneriaceae) of the Sino-Vietnamese Limestone Belt",
+  "description": "Aligned FASTA files, IQ-TREE 3.1.1 ML treefiles and log files, AU test input/output, R visualisation scripts, and figures for a phylogeographic study of Begonia sect. Coelocentrum and Hemiboea across the Vietnam-China karst border. Submitted to Journal of Asia-Pacific Biodiversity (2026).",
+  "creators": [
+    {
+      "name": "Ha Duong"
+    }
+  ],
+  "keywords": [
+    "Sino-Vietnamese Limestone Belt",
+    "karst biogeography",
+    "Begonia",
+    "Hemiboea",
+    "Gesneriaceae",
+    "Begoniaceae",
+    "ITS",
+    "trnL-F",
+    "rpl16",
+    "IQ-TREE",
+    "phylogeography",
+    "marker incongruence",
+    "AU test",
+    "Vietnam",
+    "Guangxi",
+    "Guizhou"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "language": "eng",
+  "notes": "Related manuscript submitted to Journal of Asia-Pacific Biodiversity (2026). DOI will be added on acceptance."
+}

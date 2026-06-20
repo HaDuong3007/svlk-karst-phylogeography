@@ -1,0 +1,87 @@
+# Pipeline working directories (large intermediate files)
+02_curation/
+02_curation_marker_repaired/
+03_focal_curation/
+03_focal_curation_marker_repaired/
+04_literature_curation/
+05_analysis_ready/
+06_aligned/
+07_qc/
+08_trees/
+09_interpretation/
+10_master_curation/
+11_locality_curation/
+12_voucher_taxonomy_audit/
+13_hemiboea_triage/
+14_hemiboea_master_curation/
+15_analysis_ready/
+16_aligned/
+17_qc/
+18_exploratory_trees/
+19_liang2025_expansion/
+20_hemi_curation/
+21_hemi_literature_curation/
+22_hemi_analysis_ready/
+23_hemi_aligned/
+24_hemi_qc/
+25_hemi_trees/
+26_hemi_interpretation/
+27_hemi_trnlf/
+28_hemi_concat/
+29_hemi_concat_aligned/
+30_hemi_concat_trees/
+31_hemi_concat_interpretation/
+32_au_test/
+33_branch_support/
+33_mrbayes/
+34_hemi_its_iqtree3/
+35_trnlf_triple/
+
+# R outputs
+Rplots.pdf
+*.Rhistory
+.RData
+
+# Intermediate / exploratory figures (superseded by fig1–figS1)
+figures/fig_begonia_ITS_tree.*
+figures/fig_begonia_rpl16_tree.*
+figures/fig_begonia_combined.*
+figures/fig_begonia_map.*
+figures/fig_ITS_annotated.*
+figures/fig_trnlf_tree.*
+figures/fig_concat_tree.*
+figures/fig_multimarker_panel.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Claude Code internal files
+.claude/
+
+# Intermediate data inventory
+data_inventory/
+data_inventory_test/
+
+# Draft manuscripts (only v4 is in repository)
+manuscript/manuscript_draft_v1.md
+manuscript/manuscript_draft_v2.md
+manuscript/manuscript_draft_v3.md
+manuscript/audit_truth/
+manuscript/manu/
+
+# Large pipeline CSV files
+candidate_taxa_matrix.csv
+metadata_schema.csv
+
+# Internal project management documents (not for public repository)
+HEMIBOEA_PIPELINE_STATUS.md
+PIPELINE_REPORT_2026-05-30.md
+PROJECT_DECISION_AFTER_BEGONIA_AUDIT.md
+RUNBOOK.md
+SVLK_RESTART_PROTOCOL.md

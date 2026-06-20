@@ -1,0 +1,262 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: ../23_hemi_aligned/hemiboea_main_ITS_aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 201476
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 32 sequences with 895 nucleotide sites
+Number of constant sites: 678 (= 75.7542% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 678 (= 75.7542% of all sites)
+Number of parsimony informative sites: 116
+Number of distinct site patterns: 315
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.3467
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 3.3467
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2209
+  pi(C) = 0.2959
+  pi(G) = 0.2786
+  pi(T) = 0.2046
+
+Rate matrix Q:
+
+  A    -1.088    0.2247    0.7079    0.1553
+  C    0.1677    -0.899    0.2115    0.5198
+  G    0.5613    0.2247   -0.9413    0.1553
+  T    0.1677    0.7519    0.2115    -1.131
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2905
+
+ Category  Relative_rate  Proportion
+  1         0.004557       0.25
+  2         0.09714        0.25
+  3         0.5795         0.25
+  4         3.319          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3523.2097 (s.e. 146.4425)
+Unconstrained log-likelihood (without tree): -3781.2176
+Number of free parameters (#branches + #model parameters): 66
+Akaike information criterion (AIC) score: 7178.4194
+Corrected Akaike information criterion (AICc) score: 7189.1006
+Bayesian information criterion (BIC) score: 7495.0098
+
+Total tree length (sum of branch lengths): 0.6376
+Sum of internal branch lengths: 0.1935 (30.3482% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0011) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KJ475419|ITS|Hemiboea_cavaleriei|Karst|A' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++------KJ475419|ITS|Hemiboea_cavaleriei|Karst|A
+|
+|  +---HQ632987|ITS|Hemiboea_rubribracteata|Karst|A
++**| (72.4/0.433/53)
+|  +----KY288035|ITS|Hemiboea_pseudomagnibracteata|Karst|D_liang2025
+|
+|  +-----HQ632984|ITS|Hemiboea_magnibracteata|Karst|A
++--| (92/1/98)
+   |           +-----------HQ632986|ITS|Hemiboea_longgangensis|Non-karst|A
+   |        +--| (75.7/0.841/74)
+   |        |  +----PV439819|ITS|Hemiboea_mollifolia|Karst|D_liang2025
+   |     +--| (85/0.984/76)
+   |     |  +-----HQ632985|ITS|Hemiboea_longzhouensis|Karst|A
+   |  +--| (49.4/0.877/62)
+   |  |  +---FJ501356|ITS|Hemiboea_bicornuta|Karst|D_liang2025
+   +--| (95.9/1/94)
+      |             +--PV439818|ITS|Hemiboea_cavaleriei|Karst|D_liang2025
+      |        +----| (92.6/1/96)
+      |        |    +----------------MW035004|ITS|Hemiboea_liana|Karst|D_liang2025
+      |     +--| (57.4/0.503/63)
+      |     |  |     +---KY607398|ITS|Hemiboea_pterocaulis|Karst|D_liang2025
+      |     |  |  +--| (86.6/0.98/58)
+      |     |  |  |  |     +--MF625025|ITS|Hemiboea_guangdongensis|Non-karst|D_liang2025
+      |     |  |  |  |  +--| (88.8/0.984/58)
+      |     |  |  |  |  |  +-------FJ501357|ITS|Hemiboea_subcapitata|Karst|D_liang2025
+      |     |  |  |  +--| (79.1/0.823/56)
+      |     |  |  |     +-------MK441665|ITS|Hemiboea_yongfuensis|Karst|D_liang2025
+      |     |  +--| (93.5/1/99)
+      |     |     +-----PV448327|ITS|Hemiboea_subacaulis_jiangxiensis|Karst|D_liang2025
+      |  +--| (75.8/0.905/61)
+      |  |  |        +-------PV439817|ITS|Hemiboea_suiyangensis|Karst|D_liang2025
+      |  |  |     +--| (69.8/0.409/52)
+      |  |  |     |  |      +--------HQ632982|ITS|Hemiboea_follicularis|Karst|A
+      |  |  |     |  |   +--| (52.2/0.57/68)
+      |  |  |     |  |   |  +---------PV439820|ITS|Hemiboea_follicularis_retroflexa|Karst|D_liang2025
+      |  |  |     |  +---| (97/1/99)
+      |  |  |     |      +---OK322552|ITS|Hemiboea_purpurea|Karst|A
+      |  |  |  +--| (10.2/0.441/38)
+      |  |  |  |  |              +---------------HQ632979|ITS|Hemiboea_fangii|Non-karst|A
+      |  |  |  |  +--------------| (99.5/1/100)
+      |  |  |  |                 |                            +---HQ632980|ITS|Hemiboea_ovalifolia|Karst|A
+      |  |  |  |                 |                     +------| (98.8/1/100)
+      |  |  |  |                 |                     |      |        +**PV448324|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                     |      |     +**| (0/0.333/66)
+      |  |  |  |                 |                     |      |     |  +**PV448326|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                     |      +-----| (98.8/1/100)
+      |  |  |  |                 |                     |            +**PV448325|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                  +--| (66.7/0.449/69)
+      |  |  |  |                 |                  |  |            +--PV448321|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 |                  |  |         +**| (0/0.333/79)
+      |  |  |  |                 |                  |  |         |  +**PV448322|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 |                  |  +---------| (99.9/1/100)
+      |  |  |  |                 |                  |            +**PV448323|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 +------------------| (100/1/100)
+      |  |  |  |                                    |  +----------JN644335|ITS|Hemiboea_kaiyangensis|Karst|D_liang2025
+      |  |  |  |                                    +--| (24.2/0.547/56)
+      |  |  |  |                                       +-------PV439816|ITS|Hemiboea_parvibracteata|Karst|D_liang2025
+      |  |  +--| (86.2/0.973/86)
+      |  |     +-----------------HQ632983|ITS|Hemiboea_follicularis|Karst|D_liang2025
+      +**| (0/0.333/38)
+         |  +------OK322553|ITS|Hemiboea_purpureotincta|Karst|A
+         +**| (0/0.333/45)
+            +----PV439821|ITS|Hemiboea_albiflora|Karst|D_liang2025
+
+Tree in newick format:
+
+(KJ475419|ITS|Hemiboea_cavaleriei|Karst|A:0.0163216567,(HQ632987|ITS|Hemiboea_rubribracteata|Karst|A:0.0101063236,KY288035|ITS|Hemiboea_pseudomagnibracteata|Karst|D_liang2025:0.0110806983)72.4/0.433/53:0.0009585049,(HQ632984|ITS|Hemiboea_magnibracteata|Karst|A:0.0132426865,((((HQ632986|ITS|Hemiboea_longgangensis|Non-karst|A:0.0246271940,PV439819|ITS|Hemiboea_mollifolia|Karst|D_liang2025:0.0115575530)75.7/0.841/74:0.0033020649,HQ632985|ITS|Hemiboea_longzhouensis|Karst|A:0.0134830872)85/0.984/76:0.0047257362,FJ501356|ITS|Hemiboea_bicornuta|Karst|D_liang2025:0.0090312558)49.4/0.877/62:0.0035019678,((((PV439818|ITS|Hemiboea_cavaleriei|Karst|D_liang2025:0.0015469679,MW035004|ITS|Hemiboea_liana|Karst|D_liang2025:0.0350003355)92.6/1/96:0.0120140484,((KY607398|ITS|Hemiboea_pterocaulis|Karst|D_liang2025:0.0084077289,((MF625025|ITS|Hemiboea_guangdongensis|Non-karst|D_liang2025:0.0062048118,FJ501357|ITS|Hemiboea_subcapitata|Karst|D_liang2025:0.0180193657)88.8/0.984/58:0.0045153567,MK441665|ITS|Hemiboea_yongfuensis|Karst|D_liang2025:0.0171034045)79.1/0.823/56:0.0028411554)86.6/0.98/58:0.0041792131,PV448327|ITS|Hemiboea_subacaulis_jiangxiensis|Karst|D_liang2025:0.0124420228)93.5/1/99:0.0071228906)57.4/0.503/63:0.0019931353,(((PV439817|ITS|Hemiboea_suiyangensis|Karst|D_liang2025:0.0170447643,((HQ632982|ITS|Hemiboea_follicularis|Karst|A:0.0198003108,PV439820|ITS|Hemiboea_follicularis_retroflexa|Karst|D_liang2025:0.0215541094)52.2/0.57/68:0.0033054103,OK322552|ITS|Hemiboea_purpurea|Karst|A:0.0094835755)97/1/99:0.0087402302)69.8/0.409/52:0.0013702251,(HQ632979|ITS|Hemiboea_fangii|Non-karst|A:0.0346209130,(((HQ632980|ITS|Hemiboea_ovalifolia|Karst|A:0.0101068821,((PV448324|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000010000,PV448326|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000010000)0/0.333/66:0.0000010000,PV448325|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000010000)98.8/1/100:0.0139036405)98.8/1/100:0.0149305531,((PV448321|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0052436774,PV448322|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0000010000)0/0.333/79:0.0000010000,PV448323|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0000010000)99.9/1/100:0.0223692378)66.7/0.449/69:0.0014632074,(JN644335|ITS|Hemiboea_kaiyangensis|Karst|D_liang2025:0.0225329560,PV439816|ITS|Hemiboea_parvibracteata|Karst|D_liang2025:0.0166621918)24.2/0.547/56:0.0036111108)100/1/100:0.0395078488)99.5/1/100:0.0310341783)10.2/0.441/38:0.0026828944,HQ632983|ITS|Hemiboea_follicularis|Karst|D_liang2025:0.0388213563)86.2/0.973/86:0.0047390727)75.8/0.905/61:0.0014267183,(OK322553|ITS|Hemiboea_purpureotincta|Karst|A:0.0146197404,PV439821|ITS|Hemiboea_albiflora|Karst|D_liang2025:0.0115357725)0/0.333/45:0.0000010000)0/0.333/38:0.0000010000)95.9/1/94:0.0072228484)92/1/98:0.0059440140);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3523.216424
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------KJ475419|ITS|Hemiboea_cavaleriei|Karst|A
+|
+|  +---HQ632987|ITS|Hemiboea_rubribracteata|Karst|A
++--| (53)
+|  +----KY288035|ITS|Hemiboea_pseudomagnibracteata|Karst|D_liang2025
+|
+|  +-----HQ632984|ITS|Hemiboea_magnibracteata|Karst|A
++--| (98)
+   |           +-----------HQ632986|ITS|Hemiboea_longgangensis|Non-karst|A
+   |        +--| (74)
+   |        |  +----PV439819|ITS|Hemiboea_mollifolia|Karst|D_liang2025
+   |     +--| (76)
+   |     |  +-----HQ632985|ITS|Hemiboea_longzhouensis|Karst|A
+   |  +--| (62)
+   |  |  +---FJ501356|ITS|Hemiboea_bicornuta|Karst|D_liang2025
+   +--| (94)
+      |             +--PV439818|ITS|Hemiboea_cavaleriei|Karst|D_liang2025
+      |        +----| (96)
+      |        |    +----------------MW035004|ITS|Hemiboea_liana|Karst|D_liang2025
+      |     +--| (63)
+      |     |  |     +---KY607398|ITS|Hemiboea_pterocaulis|Karst|D_liang2025
+      |     |  |  +--| (58)
+      |     |  |  |  |     +--MF625025|ITS|Hemiboea_guangdongensis|Non-karst|D_liang2025
+      |     |  |  |  |  +--| (58)
+      |     |  |  |  |  |  +-------FJ501357|ITS|Hemiboea_subcapitata|Karst|D_liang2025
+      |     |  |  |  +--| (56)
+      |     |  |  |     +-------MK441665|ITS|Hemiboea_yongfuensis|Karst|D_liang2025
+      |     |  +--| (99)
+      |     |     +-----PV448327|ITS|Hemiboea_subacaulis_jiangxiensis|Karst|D_liang2025
+      |  +--| (61)
+      |  |  |        +-------PV439817|ITS|Hemiboea_suiyangensis|Karst|D_liang2025
+      |  |  |     +--| (52)
+      |  |  |     |  |      +--------HQ632982|ITS|Hemiboea_follicularis|Karst|A
+      |  |  |     |  |   +--| (68)
+      |  |  |     |  |   |  +---------PV439820|ITS|Hemiboea_follicularis_retroflexa|Karst|D_liang2025
+      |  |  |     |  +---| (99)
+      |  |  |     |      +---OK322552|ITS|Hemiboea_purpurea|Karst|A
+      |  |  |  +--| (38)
+      |  |  |  |  |              +---------------HQ632979|ITS|Hemiboea_fangii|Non-karst|A
+      |  |  |  |  +--------------| (100)
+      |  |  |  |                 |                            +---HQ632980|ITS|Hemiboea_ovalifolia|Karst|A
+      |  |  |  |                 |                     +------| (100)
+      |  |  |  |                 |                     |      |        +--PV448324|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                     |      |     +--| (66)
+      |  |  |  |                 |                     |      |     |  +--PV448326|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                     |      +-----| (100)
+      |  |  |  |                 |                     |            +--PV448325|ITS|Hemiboea_cehengensis|Karst|D_liang2025
+      |  |  |  |                 |                  +--| (69)
+      |  |  |  |                 |                  |  |            +--PV448321|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 |                  |  |         +--| (79)
+      |  |  |  |                 |                  |  |         |  +--PV448322|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 |                  |  +---------| (100)
+      |  |  |  |                 |                  |            +--PV448323|ITS|Hemiboea_xishuiensis|Karst|D_liang2025
+      |  |  |  |                 +------------------| (100)
+      |  |  |  |                                    |  +----------JN644335|ITS|Hemiboea_kaiyangensis|Karst|D_liang2025
+      |  |  |  |                                    +--| (56)
+      |  |  |  |                                       +-------PV439816|ITS|Hemiboea_parvibracteata|Karst|D_liang2025
+      |  |  +--| (86)
+      |  |     +-----------------HQ632983|ITS|Hemiboea_follicularis|Karst|D_liang2025
+      +--| (38)
+         |  +------OK322553|ITS|Hemiboea_purpureotincta|Karst|A
+         +--| (45)
+            +----PV439821|ITS|Hemiboea_albiflora|Karst|D_liang2025
+
+
+Consensus tree in newick format: 
+
+(KJ475419|ITS|Hemiboea_cavaleriei|Karst|A:0.0163176596,(HQ632987|ITS|Hemiboea_rubribracteata|Karst|A:0.0101029902,KY288035|ITS|Hemiboea_pseudomagnibracteata|Karst|D_liang2025:0.0110778383)53:0.0009605609,(HQ632984|ITS|Hemiboea_magnibracteata|Karst|A:0.0132399235,((((HQ632986|ITS|Hemiboea_longgangensis|Non-karst|A:0.0246213919,PV439819|ITS|Hemiboea_mollifolia|Karst|D_liang2025:0.0115544466)74:0.0033014506,HQ632985|ITS|Hemiboea_longzhouensis|Karst|A:0.0134789601)76:0.0047247436,FJ501356|ITS|Hemiboea_bicornuta|Karst|D_liang2025:0.0090293158)62:0.0035003229,((((PV439818|ITS|Hemiboea_cavaleriei|Karst|D_liang2025:0.0015505557,MW035004|ITS|Hemiboea_liana|Karst|D_liang2025:0.0349865102)96:0.0120029127,((KY607398|ITS|Hemiboea_pterocaulis|Karst|D_liang2025:0.0084045791,((MF625025|ITS|Hemiboea_guangdongensis|Non-karst|D_liang2025:0.0062025688,FJ501357|ITS|Hemiboea_subcapitata|Karst|D_liang2025:0.0180143387)58:0.0045145967,MK441665|ITS|Hemiboea_yongfuensis|Karst|D_liang2025:0.0170980789)56:0.0028393705)58:0.0041782193,PV448327|ITS|Hemiboea_subacaulis_jiangxiensis|Karst|D_liang2025:0.0124378088)99:0.0071222165)63:0.0019886774,(((PV439817|ITS|Hemiboea_suiyangensis|Karst|D_liang2025:0.0170365620,((HQ632982|ITS|Hemiboea_follicularis|Karst|A:0.0197900268,PV439820|ITS|Hemiboea_follicularis_retroflexa|Karst|D_liang2025:0.0215430601)68:0.0033063808,OK322552|ITS|Hemiboea_purpurea|Karst|A:0.0094792049)99:0.0087362083)52:0.0013718756,(HQ632979|ITS|Hemiboea_fangii|Non-karst|A:0.0346003813,(((HQ632980|ITS|Hemiboea_ovalifolia|Karst|A:0.0100995774,((PV448324|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000020938,PV448326|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000020938)66:0.0000020938,PV448325|ITS|Hemiboea_cehengensis|Karst|D_liang2025:0.0000020938)100:0.0138930946)100:0.0149181289,((PV448321|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0052402656,PV448322|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0000020938)79:0.0000029547,PV448323|ITS|Hemiboea_xishuiensis|Karst|D_liang2025:0.0000020938)100:0.0223563841)69:0.0014620616,(JN644335|ITS|Hemiboea_kaiyangensis|Karst|D_liang2025:0.0225166236,PV439816|ITS|Hemiboea_parvibracteata|Karst|D_liang2025:0.0166499482)56:0.0036111665)100:0.0394971405)100:0.0310136872)38:0.0026834262,HQ632983|ITS|Hemiboea_follicularis|Karst|D_liang2025:0.0388047364)86:0.0047367330)61:0.0014252764,(OK322553|ITS|Hemiboea_purpureotincta|Karst|A:0.0146159107,PV439821|ITS|Hemiboea_albiflora|Karst|D_liang2025:0.0115319579)45:0.0000020938)38:0.0000021056)94:0.0072211859)98:0.0059421819);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t hemiboea_ITS_triple.treefile -m "HKY{3.34665}+F{0.220929,0.295915,0.278594,0.204562}+G4{0.29051}" --length 895
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../23_hemi_aligned/hemiboea_main_ITS_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../23_hemi_aligned/hemiboea_main_ITS_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun  8 09:57:46 2026
+Total CPU time used: 16.892899 seconds (0h:0m:16s)
+Total wall-clock time used: 18.11352706 seconds (0h:0m:18s)
+

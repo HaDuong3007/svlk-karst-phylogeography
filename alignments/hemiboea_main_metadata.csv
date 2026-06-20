@@ -1,0 +1,33 @@
+accession,species,source,geo_loc,province_label,country,vietnam_relevance,seq_len,status,notes
+KJ475419,Hemiboea cavaleriei,Li_2022,China,Vietnam + S.China,China,cross-border,822,OK,"Occurs in N Vietnam (karst limestone, Ha Giang, Cao Bang, Lang Son) and across border into Guangxi/Y"
+HQ632979,Hemiboea fangii,Li_2022,China,Yunnan-Sichuan,China,non-karst,642,OK,"Non-karst species. Occurs in montane forest, Yunnan and Sichuan. Context/outgroup for karst comparis"
+HQ632982,Hemiboea follicularis,Li_2022,China,Guangxi,China,near-border,654,OK,"Limestone endemic, SE Guangxi. Voucher LZY & XXG 20150604019 (PE) — 2015 expedition, Guangxi. Near V"
+HQ632986,Hemiboea longgangensis,Li_2022,China,Guangxi,China,near-border,650,OK,"Named for Longgang (弄岗) Nature Reserve, Chongzuo, SW Guangxi. One of closest Chinese endemic Hemiboe"
+HQ632985,Hemiboea longzhouensis,Li_2022,China,Guangxi,China,near-border,650,OK,"Named for Longzhou County, SW Guangxi, ~40 km from Vietnam border. Karst endemic. One of the most Vi"
+HQ632984,Hemiboea magnibracteata,Li_2022,China,Guizhou,China,interior-CN,655,OK,"Karst endemic, S Guizhou / NW Guangxi border. Field study site confirmed: Maolan National Nature Res"
+HQ632980,Hemiboea ovalifolia,Li_2022,China,Guangxi-Guizhou,China,interior-CN,641,OK,"Karst endemic, central Guangxi and adjacent Guizhou. Interior limestone, ~300 km from Vietnam border"
+OK322552,Hemiboea purpurea,Li_2022,China,Guangxi,China,interior-CN,767,OK,"Karst endemic, E/NE Guangxi. Interior limestone, not adjacent to Vietnam. Source: Li 2022; POWO."
+OK322553,Hemiboea purpureotincta,Li_2022,China,Guangxi-Guizhou,China,interior-CN,652,OK,"Karst endemic, NE Guangxi and S Guizhou. Interior Chinese limestone corridor. Source: Flora of China"
+HQ632987,Hemiboea rubribracteata,Li_2022,China,Guangxi,China,interior-CN,652,OK,"Karst endemic, central/southern Guangxi. Source: Flora of China; POWO."
+PV439821,Hemiboea albiflora,Liang_2025,China,Guizhou,China,interior-CN,746,OK,Guizhou
+FJ501356,Hemiboea bicornuta,Liang_2025,China,E China,China,interior-CN,646,OK,E China
+PV439818,Hemiboea cavaleriei,Liang_2025,China,"Qingzhen, Guizhou; 2nd specimen for cavaleriei",China,interior-CN,617,OK,"Qingzhen, Guizhou; 2nd specimen for cavaleriei"
+PV448324,Hemiboea cehengensis,Liang_2025,China,"Ceheng, Guizhou; new species Liang 2025",China,interior-CN,700,OK,"Ceheng, Guizhou; new species Liang 2025"
+PV448325,Hemiboea cehengensis,Liang_2025,China,"Ceheng, Guizhou; new species Liang 2025",China,interior-CN,697,OK,"Ceheng, Guizhou; new species Liang 2025"
+PV448326,Hemiboea cehengensis,Liang_2025,China,"Ceheng, Guizhou; new species Liang 2025",China,interior-CN,606,OK,"Ceheng, Guizhou; new species Liang 2025"
+HQ632983,Hemiboea follicularis,Liang_2025,China,different voucher from Li2022 HQ632982,China,interior-CN,652,OK,different voucher from Li2022 HQ632982
+PV439820,Hemiboea follicularis_var_retroflexa,Liang_2025,China,Guangxi variant,China,near-border,623,OK,Guangxi variant
+MF625025,Hemiboea guangdongensis,Liang_2025,China,Guangdong,China,interior-CN,738,OK,Guangdong
+JN644335,Hemiboea kaiyangensis,Liang_2025,China,"Kaiyang, Guizhou",China,interior-CN,637,OK,"Kaiyang, Guizhou"
+MW035004,Hemiboea liana,Liang_2025,China,China,China,interior-CN,649,OK,China
+PV439819,Hemiboea mollifolia,Liang_2025,China,China,China,interior-CN,739,OK,China
+KY288035,Hemiboea pseudomagnibracteata,Liang_2025,China,Guangxi,China,near-border,844,OK,Guangxi
+KY607398,Hemiboea pterocaulis,Liang_2025,China,"Guilin, Guangxi; geo_conf B",China,interior-CN,712,OK,"Guilin, Guangxi; geo_conf B; corrected from near-border to interior-CN after province QC"
+PV448327,Hemiboea subacaulis_var_jiangxiensis,Liang_2025,China,Jiangxi,China,interior-CN,653,OK,Jiangxi
+FJ501357,Hemiboea subcapitata,Liang_2025,China,"Guangxi/Yunnan, near VN; Wang 11306 (PE)",China,near-border,649,OK,"Guangxi/Yunnan, near VN; Wang 11306 (PE)"
+PV439817,Hemiboea suiyangensis,Liang_2025,China,"Suiyang, Guizhou",China,interior-CN,718,OK,"Suiyang, Guizhou"
+PV448321,Hemiboea xishuiensis,Liang_2025,China,"Xishui, Guizhou; new species Liang 2025",China,interior-CN,706,OK,"Xishui, Guizhou; new species Liang 2025"
+PV448322,Hemiboea xishuiensis,Liang_2025,China,"Xishui, Guizhou; new species Liang 2025",China,interior-CN,704,OK,"Xishui, Guizhou; new species Liang 2025"
+PV448323,Hemiboea xishuiensis,Liang_2025,China,"Xishui, Guizhou; new species Liang 2025",China,interior-CN,703,OK,"Xishui, Guizhou; new species Liang 2025"
+MK441665,Hemiboea yongfuensis,Liang_2025,China,"Yongfu, Guangxi",China,near-border,671,OK,"Yongfu, Guangxi"
+PV439816,Hemiboea parvibracteata,Liang_2025,China,China,China,interior-CN,601,OK,China

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite both the manuscript and the repository itself."
+type: software
+title: "svlk-karst-phylogeography: Data and scripts for nuclear-chloroplast marker discordance in Begonia sect. Coelocentrum and Hemiboea of the Sino-Vietnamese Limestone Belt"
+authors:
+  - family-names: "Ha"
+    given-names: "Duong"
+date-released: "2026-06-08"
+license: CC-BY-4.0
+repository-code: "https://github.com/HaDuong3007/svlk-karst-phylogeography"
+keywords:
+  - karst biogeography
+  - Sino-Vietnamese Limestone Belt
+  - Begonia
+  - Hemiboea
+  - phylogenetics
+  - IQ-TREE
+  - marker incongruence
+  - Vietnam
+  - Guangxi
+preferred-citation:
+  type: article
+  title: "Nuclear-chloroplast marker discordance and cross-border geographic structuring in two karst-endemic plant genera (Begonia sect. Coelocentrum, Begoniaceae; Hemiboea, Gesneriaceae) of the Sino-Vietnamese Limestone Belt: an exploratory analysis"
+  authors:
+    - family-names: "Ha"
+      given-names: "Duong"
+  journal: "Journal of Asia-Pacific Biodiversity"
+  year: 2026
+  status: submitted

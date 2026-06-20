@@ -1,0 +1,223 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: alignments/begonia_svlb_ITS_aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 449797
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 23 sequences with 788 nucleotide sites
+Number of constant sites: 442 (= 56.0914% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 442 (= 56.0914% of all sites)
+Number of parsimony informative sites: 121
+Number of distinct site patterns: 340
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.2134
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 5.6781
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2052
+  pi(C) = 0.2876
+  pi(G) = 0.2915
+  pi(T) = 0.2156
+
+Rate matrix Q:
+
+  A   -0.9064     0.181    0.5897    0.1357
+  C    0.1292    -1.083    0.1835    0.7706
+  G    0.4151     0.181   -0.7318    0.1357
+  T    0.1292     1.028    0.1835    -1.341
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.8042,0.4587) (0.1958,3.224)
+
+ Category  Relative_rate  Proportion
+  1         0.4587         0.8042
+  2         3.224          0.1958
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4064.0619 (s.e. 133.7970)
+Unconstrained log-likelihood (without tree): -3549.5243
+Number of free parameters (#branches + #model parameters): 50
+Akaike information criterion (AIC) score: 8228.1237
+Corrected Akaike information criterion (AICc) score: 8235.0437
+Bayesian information criterion (BIC) score: 8461.5986
+
+Total tree length (sum of branch lengths): 1.0469
+Sum of internal branch lengths: 0.1056 (10.0907% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KF636489|ITS|Begonia_variegata|Yunnan_Karst|Peng_20533' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++--------KF636489|ITS|Begonia_variegata|Yunnan_Karst|Peng_20533
+|
+|                       +------KF636486|ITS|Begonia_sinofloribunda|Guangxi_Karst|Leong_3401
+|                    +--| (7.9/0.423/33)
+|                    |  |  +------------------------KF636475|ITS|Begonia_pengii|Guangxi_Karst|Peng_21070
+|                    |  +--| (38.5/0.637/69)
+|                    |     +-------------------------------------------KF636466|ITS|Begonia_ningmingensis|Guangxi_Karst|Leong_3410
+|                 +--| (83.8/0.861/46)
+|                 |  +-----------KF636461|ITS|Begonia_luzhaiensis|Guangxi_Karst|Ku_2019
+|              +**| (0/0.333/25)
+|              |  +----KF636480|ITS|Begonia_retinervia|Guangxi_Karst|Peng_19808
+|           +--| (94.1/1/91)
+|           |  |        +----------------KF636477|ITS|Begonia_pulvinifera|Guangxi_Karst|Peng_19741
+|           |  |     +--| (3.1/0.469/34)
+|           |  |     |  |  +-------KF636457|ITS|Begonia_leprosa|Guangdong_Karst|Peng_19474
+|           |  |     |  +--| (76/0.765/79)
+|           |  |     |     |     +--KF636442|ITS|Begonia_guixiensis|Guangxi_Karst|Peng_20310
+|           |  |     |     +-----| (99.7/1/100)
+|           |  |     |           +--KF636434|ITS|Begonia_cylindrica|Guangxi_Karst|Leong_3636
+|           |  |  +--| (84.7/0.969/54)
+|           |  |  |  +--------KF636448|ITS|Begonia_jingxiensis|Guangxi_Karst|Peng_19742
+|           |  +--| (79.7/0.977/39)
+|           |     |     +-------------KF636459|ITS|Begonia_longa|Vietnam_North_Karst|Peng_20073
+|           |     |  +--| (60/0.765/54)
+|           |     |  |  +-----KF636449|ITS|Begonia_mashanica|Guangxi_Karst|Peng_19805
+|           |     +--| (70.3/0.434/57)
+|           |        +---------KF636430|ITS|Begonia_cavaleriei|Vietnam_North_Karst|Peng_19933
+|        +--| (86/0.98/81)
+|        |  |  +-----KF636483|ITS|Begonia_semiparietalis|Guangxi_Karst|Peng_20327
+|        |  +--| (75.6/0.856/58)
+|        |     |     +-------------------------------KF636463|ITS|Begonia_masoniana|Guangxi_Karst|Peng_19795
+|        |     |  +--| (79/0.944/69)
+|        |     |  |  |  +--KF636460|ITS|Begonia_longistyla|Yunnan_Karst|Peng_20435
+|        |     |  |  +--| (47.4/0.378/41)
+|        |     |  |     +-----------------------KF636422|ITS|Begonia_auritistipula|Yunnan_Karst|Peng_20532
+|        |     +--| (73.8/0.781/62)
+|        |        +------KF636420|ITS|Begonia_arachnoidea|Guangxi_Karst|Peng_19762
+|     +--| (69.8/0.818/68)
+|     |  +---KF636424|ITS|Begonia_bamaensis|Guangxi_Karst|Peng_18752
+|  +--| (93.6/1/92)
+|  |  +---KF636423|ITS|Begonia_austroguangxiensis|Guangxi_Karst|Peng_19788
++--| (15.8/0.551/61)
+|  +--KF636456|ITS|Begonia_lanternaria|Guangxi_Karst|Peng_19789
+|
++-----------KF636458|ITS|Begonia_liuyanii|Guangxi_Karst|Peng_18820
+
+Tree in newick format:
+
+(KF636489|ITS|Begonia_variegata|Yunnan_Karst|Peng_20533:0.0316829391,((((((((KF636486|ITS|Begonia_sinofloribunda|Guangxi_Karst|Leong_3401:0.0248717586,(KF636475|ITS|Begonia_pengii|Guangxi_Karst|Peng_21070:0.0871894478,KF636466|ITS|Begonia_ningmingensis|Guangxi_Karst|Leong_3410:0.1517762357)38.5/0.637/69:0.0102370689)7.9/0.423/33:0.0046066198,KF636461|ITS|Begonia_luzhaiensis|Guangxi_Karst|Ku_2019:0.0447729058)83.8/0.861/46:0.0067721304,KF636480|ITS|Begonia_retinervia|Guangxi_Karst|Peng_19808:0.0195888236)0/0.333/25:0.0000020152,(((KF636477|ITS|Begonia_pulvinifera|Guangxi_Karst|Peng_19741:0.0612578027,(KF636457|ITS|Begonia_leprosa|Guangdong_Karst|Peng_19474:0.0277486440,(KF636442|ITS|Begonia_guixiensis|Guangxi_Karst|Peng_20310:0.0049745531,KF636434|ITS|Begonia_cylindrica|Guangxi_Karst|Leong_3636:0.0044876129)99.7/1/100:0.0226194454)76/0.765/79:0.0047527369)3.1/0.469/34:0.0021182280,KF636448|ITS|Begonia_jingxiensis|Guangxi_Karst|Peng_19742:0.0326967991)84.7/0.969/54:0.0050532913,((KF636459|ITS|Begonia_longa|Vietnam_North_Karst|Peng_20073:0.0494468411,KF636449|ITS|Begonia_mashanica|Guangxi_Karst|Peng_19805:0.0235150150)60/0.765/54:0.0032202814,KF636430|ITS|Begonia_cavaleriei|Vietnam_North_Karst|Peng_19933:0.0374508912)70.3/0.434/57:0.0015850923)79.7/0.977/39:0.0021442132)94.1/1/91:0.0048604865,(KF636483|ITS|Begonia_semiparietalis|Guangxi_Karst|Peng_20327:0.0230768277,((KF636463|ITS|Begonia_masoniana|Guangxi_Karst|Peng_19795:0.1114697425,(KF636460|ITS|Begonia_longistyla|Yunnan_Karst|Peng_20435:0.0125715651,KF636422|ITS|Begonia_auritistipula|Yunnan_Karst|Peng_20532:0.0837836420)47.4/0.378/41:0.0013985310)79/0.944/69:0.0040737784,KF636420|ITS|Begonia_arachnoidea|Guangxi_Karst|Peng_19762:0.0241953073)73.8/0.781/62:0.0018699810)75.6/0.856/58:0.0018161702)86/0.98/81:0.0054776509,KF636424|ITS|Begonia_bamaensis|Guangxi_Karst|Peng_18752:0.0165610376)69.8/0.818/68:0.0035775159,KF636423|ITS|Begonia_austroguangxiensis|Guangxi_Karst|Peng_19788:0.0150823090)93.6/1/92:0.0136708474,KF636456|ITS|Begonia_lanternaria|Guangxi_Karst|Peng_19789:0.0113750057)15.8/0.551/61:0.0057829670,KF636458|ITS|Begonia_liuyanii|Guangxi_Karst|Peng_18820:0.0416805927);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4064.061976
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------KF636489|ITS|Begonia_variegata|Yunnan_Karst|Peng_20533
+|
+|                       +------KF636486|ITS|Begonia_sinofloribunda|Guangxi_Karst|Leong_3401
+|                    +--| (33)
+|                    |  |  +------------------------KF636475|ITS|Begonia_pengii|Guangxi_Karst|Peng_21070
+|                    |  +--| (69)
+|                    |     +-------------------------------------------KF636466|ITS|Begonia_ningmingensis|Guangxi_Karst|Leong_3410
+|                 +--| (46)
+|                 |  +-----------KF636461|ITS|Begonia_luzhaiensis|Guangxi_Karst|Ku_2019
+|              +--| (25)
+|              |  +----KF636480|ITS|Begonia_retinervia|Guangxi_Karst|Peng_19808
+|           +--| (91)
+|           |  |        +----------------KF636477|ITS|Begonia_pulvinifera|Guangxi_Karst|Peng_19741
+|           |  |     +--| (34)
+|           |  |     |  |  +-------KF636457|ITS|Begonia_leprosa|Guangdong_Karst|Peng_19474
+|           |  |     |  +--| (79)
+|           |  |     |     |     +--KF636442|ITS|Begonia_guixiensis|Guangxi_Karst|Peng_20310
+|           |  |     |     +-----| (100)
+|           |  |     |           +--KF636434|ITS|Begonia_cylindrica|Guangxi_Karst|Leong_3636
+|           |  |  +--| (54)
+|           |  |  |  +--------KF636448|ITS|Begonia_jingxiensis|Guangxi_Karst|Peng_19742
+|           |  +--| (39)
+|           |     |     +-------------KF636459|ITS|Begonia_longa|Vietnam_North_Karst|Peng_20073
+|           |     |  +--| (54)
+|           |     |  |  +-----KF636449|ITS|Begonia_mashanica|Guangxi_Karst|Peng_19805
+|           |     +--| (57)
+|           |        +---------KF636430|ITS|Begonia_cavaleriei|Vietnam_North_Karst|Peng_19933
+|        +--| (81)
+|        |  |  +-----KF636483|ITS|Begonia_semiparietalis|Guangxi_Karst|Peng_20327
+|        |  +--| (58)
+|        |     |     +-------------------------------KF636463|ITS|Begonia_masoniana|Guangxi_Karst|Peng_19795
+|        |     |  +--| (69)
+|        |     |  |  |  +--KF636460|ITS|Begonia_longistyla|Yunnan_Karst|Peng_20435
+|        |     |  |  +--| (41)
+|        |     |  |     +-----------------------KF636422|ITS|Begonia_auritistipula|Yunnan_Karst|Peng_20532
+|        |     +--| (62)
+|        |        +------KF636420|ITS|Begonia_arachnoidea|Guangxi_Karst|Peng_19762
+|     +--| (68)
+|     |  +---KF636424|ITS|Begonia_bamaensis|Guangxi_Karst|Peng_18752
+|  +--| (92)
+|  |  +---KF636423|ITS|Begonia_austroguangxiensis|Guangxi_Karst|Peng_19788
++--| (61)
+|  +--KF636456|ITS|Begonia_lanternaria|Guangxi_Karst|Peng_19789
+|
++-----------KF636458|ITS|Begonia_liuyanii|Guangxi_Karst|Peng_18820
+
+
+Consensus tree in newick format: 
+
+(KF636489|ITS|Begonia_variegata|Yunnan_Karst|Peng_20533:0.0316878315,((((((((KF636486|ITS|Begonia_sinofloribunda|Guangxi_Karst|Leong_3401:0.0248903167,(KF636475|ITS|Begonia_pengii|Guangxi_Karst|Peng_21070:0.0872521750,KF636466|ITS|Begonia_ningmingensis|Guangxi_Karst|Leong_3410:0.1518532967)69:0.0102200883)33:0.0046012133,KF636461|ITS|Begonia_luzhaiensis|Guangxi_Karst|Ku_2019:0.0447994034)46:0.0067763105,KF636480|ITS|Begonia_retinervia|Guangxi_Karst|Peng_19808:0.0196001322)25:0.0000025622,(((KF636477|ITS|Begonia_pulvinifera|Guangxi_Karst|Peng_19741:0.0613009431,(KF636457|ITS|Begonia_leprosa|Guangdong_Karst|Peng_19474:0.0277702736,(KF636442|ITS|Begonia_guixiensis|Guangxi_Karst|Peng_20310:0.0049784315,KF636434|ITS|Begonia_cylindrica|Guangxi_Karst|Leong_3636:0.0044907597)100:0.0226362052)79:0.0047542623)34:0.0021196522,KF636448|ITS|Begonia_jingxiensis|Guangxi_Karst|Peng_19742:0.0327184877)54:0.0050566171,((KF636459|ITS|Begonia_longa|Vietnam_North_Karst|Peng_20073:0.0494792686,KF636449|ITS|Begonia_mashanica|Guangxi_Karst|Peng_19805:0.0235302372)54:0.0032202996,KF636430|ITS|Begonia_cavaleriei|Vietnam_North_Karst|Peng_19933:0.0374752644)57:0.0015850130)39:0.0021461904)91:0.0048627023,(KF636483|ITS|Begonia_semiparietalis|Guangxi_Karst|Peng_20327:0.0230867319,((KF636463|ITS|Begonia_masoniana|Guangxi_Karst|Peng_19795:0.1115093776,(KF636460|ITS|Begonia_longistyla|Yunnan_Karst|Peng_20435:0.0125768192,KF636422|ITS|Begonia_auritistipula|Yunnan_Karst|Peng_20532:0.0838067903)41:0.0013969834)69:0.0040734923,KF636420|ITS|Begonia_arachnoidea|Guangxi_Karst|Peng_19762:0.0242052657)62:0.0018701855)58:0.0018164565)81:0.0054771943,KF636424|ITS|Begonia_bamaensis|Guangxi_Karst|Peng_18752:0.0165648288)68:0.0035781861,KF636423|ITS|Begonia_austroguangxiensis|Guangxi_Karst|Peng_19788:0.0150863418)92:0.0136703890,KF636456|ITS|Begonia_lanternaria|Guangxi_Karst|Peng_19789:0.0113784698)61:0.0057811945,KF636458|ITS|Begonia_liuyanii|Guangxi_Karst|Peng_18820:0.0416894320);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t trees/begonia_ITS_fullsupport.treefile -m "TN{3.21341,5.67811}+F{0.205218,0.287623,0.291543,0.215616}+R2{0.804243,0.458665,0.195757,3.22401}" --length 788
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignments/begonia_svlb_ITS_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignments/begonia_svlb_ITS_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun  8 09:48:24 2026
+Total CPU time used: 11.189273 seconds (0h:0m:11s)
+Total wall-clock time used: 11.92313695 seconds (0h:0m:11s)
+

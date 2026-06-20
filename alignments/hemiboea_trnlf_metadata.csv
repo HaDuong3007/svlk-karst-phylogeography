@@ -1,0 +1,26 @@
+accession,species,source,marker,seq_len,status,notes
+HQ632882,Hemiboea fangii,Li_2022,trnLF,870,OK,Known Li 2022 accession
+HQ632885,Hemiboea follicularis,Li_2022,trnLF,788,OK,Known Li 2022 accession
+HQ632889,Hemiboea longgangensis,Li_2022,trnLF,849,OK,Known Li 2022 accession
+HQ632888,Hemiboea longzhouensis,Li_2022,trnLF,849,OK,Known Li 2022 accession
+HQ632887,Hemiboea magnibracteata,Li_2022,trnLF,850,OK,Known Li 2022 accession
+HQ632883,Hemiboea ovalifolia,Li_2022,trnLF,849,OK,Known Li 2022 accession
+HQ632884,Hemiboea purpureotincta,Li_2022,trnLF,847,OK,Known Li 2022 accession
+HQ632890,Hemiboea rubribracteata,Li_2022,trnLF,849,OK,Known Li 2022 accession
+OK322551,Hemiboea subcapitata,Li_2022,trnLF,,FAIL,EBI fetch failed
+KY607413,Hemiboea pterocaulis,Li_2022,trnLF,839,OK,Known Li 2022 accession
+,Hemiboea albiflora,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea bicornuta,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea cavaleriei,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea cehengensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea guangdongensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea kaiyangensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea liana,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea mollifolia,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea pseudomagnibracteata,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea purpurea,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea subacaulis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea suiyangensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea xishuiensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea yongfuensis,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
+,Hemiboea parvibracteata,ENA_search,trnLF,,NOT_FOUND,No trnL-F found on ENA
